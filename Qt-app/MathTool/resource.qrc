@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+    <file>icons/pi.png</file>
+    <file>icons/cpp.png</file>
+    <file>icons/qt.png</file>
+    <file>icons/gnu.png</file>
+    <file>icons/bracket.png</file>
+    </qresource>
+</RCC>
