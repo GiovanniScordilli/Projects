@@ -1,2 +1,2 @@
 **Projects**\
-Projects made in c or c++
+There are project in C or C++.\
