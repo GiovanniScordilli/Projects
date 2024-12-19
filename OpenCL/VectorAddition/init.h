@@ -13,7 +13,7 @@
 #include <CL/opencl.h>
 #endif
 
-#if defined (__unix__) || defined (__unix) || defined(__APPLE__)
+#if defined (__unix__) || defined (__unix) || defined (__APPLE__)
 #define ANSI_COLOR_RED   "\x1b[31m"
 #define ANSI_COLOR_GREEN "\x1b[32m"
 #define ANSI_COLOR_RESET "\x1b[0m"
