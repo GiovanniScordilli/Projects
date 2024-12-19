@@ -13,12 +13,18 @@
 #include <CL/opencl.h>
 #endif
 
+#if defined (__unix__) || defined (__unix) || defined(__APPLE__)
 #define ANSI_COLOR_RED   "\x1b[31m"
 #define ANSI_COLOR_GREEN "\x1b[32m"
 #define ANSI_COLOR_RESET "\x1b[0m"
 
 #define ERROR_FPRINTF(ARG) fprintf(stderr, ANSI_COLOR_RED  ARG ANSI_COLOR_RESET)
 #define SUCCESS_FPRINTF(ARG) fprintf(stdout, ANSI_COLOR_GREEN ARG ANSI_COLOR_RESET)
+
+#else
+#define ERROR_FPRINTF(ARG) fprintf(stderr, ARG)
+#define SUCCESS_FPRINTF(ARG) fprintf(stdout, ARG)
+#endif
 
 #define COMPILE_LOG_BUFFER 20000
 #define MEMOBJECTSBUFFER 3
