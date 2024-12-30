@@ -122,15 +122,3 @@ void delete_at_position(list_node **head, size_t position)
         }
     }
 }
-
-void print_list(list_node *head)
-{
-    list_node *temp = head;
-
-    while (temp != NULL)
-    {
-        printf("%g ", temp->value);
-        temp = temp->next;
-    }
-    printf("\n");
-}
