@@ -26,6 +26,4 @@ void delete_at_head(list_node **head);
 void delete_at_end(list_node **head);
 void delete_at_position(list_node **head, size_t position);
 
-void print_list(list_node *head);
-
 #endif
