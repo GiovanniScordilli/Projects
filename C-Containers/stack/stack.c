@@ -42,15 +42,3 @@ void pop(stack **node)
         free(tmp);
     }
 }
-
-void print_stack(stack *node)
-{
-    stack *temp = node;
-
-    while (temp != NULL)
-    {
-        printf("%g ", temp->value);
-        temp = temp->next;
-    }
-    printf("\n");
-} 
