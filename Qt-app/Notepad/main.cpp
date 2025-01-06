@@ -1,3 +1,9 @@
+/*
+ * Author: Scordilli Giovanni
+ * Project: base notepad made with Qt framework
+ * Date: 
+ */
+
 #include <QApplication>
 #include <QSplashScreen>
 #include <QTimer>
