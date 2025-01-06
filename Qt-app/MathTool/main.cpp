@@ -1,5 +1,5 @@
 /*
- * Author: Giovanni Scordilli
+ * Author: Scordilli Giovanni
  * Project: GUI math helper made with C++, Qt and GSL libraries
  * Date: 22/04/2024
  */
