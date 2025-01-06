@@ -1,3 +1,12 @@
+/*
+ * Author: Scordilli Giovanni
+ * Project: vector addiction using OpenCL
+ * Notes: this is a simple program to learn OpenCL,
+ *        it uses the first device that OpenCL finds.
+          In "kernelFileName" put the path where you have "kernel.cl".
+ * Date: 
+ */
+
 #include <stdlib.h>
 #include <stddef.h>
 #include <time.h>
