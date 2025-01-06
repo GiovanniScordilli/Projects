@@ -2,7 +2,6 @@
  * Author: Giovanni Scordilli
  * Project: GUI math helper made with C++, Qt and GSL libraries
  * Date: 22/04/2024
- * Version: 0.0
  */
 
 #include "window.h"
