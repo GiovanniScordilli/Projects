@@ -1,8 +1,7 @@
 /*
- * Author: Giovanni Scordilli
+ * Author: Scordilli Giovanni
  * Project: simple GUI password generator  made with C++ and Qt Framework
  * Date: 17/01/2024
- * Version: 0.0
  */
 
 #include <QApplication>
