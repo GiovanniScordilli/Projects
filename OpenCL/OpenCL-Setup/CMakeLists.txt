@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(OCLSetup LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 11)
+file(GLOB src * .cpp .h)
+find_package(OpenCL 3.0 REQUIRED)
+add_executable(OCLSetup ${src})
+target_link_libraries(OCLSetup OpenCL::OpenCL)
